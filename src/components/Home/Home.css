@@ -1,0 +1,31 @@
+.card {
+  border-radius: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.flex-bottom {
+  max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1rem;
+  padding-inline-start: 1rem;
+}
+
+.rocket-img {
+  width: 40rem;
+  height: 35rem;
+  border-radius: 2rem;
+  padding: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.em-description {
+  font-size: 1.2rem;
+  padding-inline-start: 1rem;
+}
+
+.loading {
+  font-size: 4rem;
+}

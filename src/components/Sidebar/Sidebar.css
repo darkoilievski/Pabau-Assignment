@@ -1,0 +1,74 @@
+.sidebar-container {
+  width: 40rem;
+  height: 100vh;
+  position: absolute;
+  top: 0%;
+  left: 73%;
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+.sidebar-container h2 {
+  margin-top: 12rem;
+  margin-bottom: 2rem;
+  color: white;
+  background-color: #212529;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.sidebar-container label {
+  margin-bottom: 1rem;
+  background-color: #212529;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.sidebar-container h3 {
+  margin-bottom: 1rem;
+  background-color: #212529;
+  color: #fff;
+  font-size: 2rem;
+}
+.comment {
+  max-width: 25rem;
+  margin-top: 1rem;
+  color: white;
+  background-color: #212529;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.sidebar-textarea {
+  width: 30rem;
+  height: 10rem;
+  padding: 0.2rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  font-size: 2rem;
+}
+
+.close-svg {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  position: relative;
+  top: 10%;
+  left: 35%;
+}
+
+.submit {
+  width: 10rem;
+  height: 3rem;
+  border: none;
+  margin-top: 0.3rem;
+  border-radius: 2rem;
+  font-size: 1.4rem;
+  background-color: #fd7e14;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
